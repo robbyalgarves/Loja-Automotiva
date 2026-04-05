@@ -1,0 +1,8 @@
+Servico,Preco_Medio
+Envelopamento,3500
+Som automotivo,1200
+Insulfilm,600
+Modulo de conforto,450
+Instalacao vidro eletrico,800
+Conserto vidro eletrico,300
+Estetica automotiva,250
