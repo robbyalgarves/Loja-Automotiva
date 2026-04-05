@@ -43,3 +43,25 @@ Esse indicador tem como objetivo **apoiar análises comparativas** entre municí
 ## Gerenciamento do Projeto
 O acompanhamento e a organização das atividades foram realizados por meio de um **Board Kanban**, utilizando o **GitHub Projects**, onde estão registradas as tarefas relacionadas à AC1 e seu status de conclusão.
 
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+## ✅ AC2 – Desempenho de Serviços (Jan–Jun/2025)
+
+Na AC2 foi implementada a funcionalidade **Desempenho de Serviços**, com o objetivo de analisar o faturamento por tipo de serviço no primeiro semestre de 2025 (Jan–Jun).
+
+### Funcionalidades:
+- Slicer de Mês/Ano (Jan/25 – Jun/25)
+- Indicador de Faturamento Total – Serviços Automotivos
+- Indicador de Faturamento do Serviço Líder (Mês)
+- Ranking de faturamento por serviço (gráfico de colunas)
+- Participação percentual por serviço (gráfico de rosca)
+
+Todos os visuais respondem dinamicamente ao mês selecionado, caracterizando uma funcionalidade completa e independente em relação à AC1.
+
+### Fonte dos dados:
+- Frota: RENAVEC (dados públicos – RMSP)
+- Faturamento e serviços: dados fictícios para fins acadêmicos
+
+🎥 **Vídeo de demonstração (AC2):**  
+👉 *(cole aqui o link do vídeo quando gravar)*
+
