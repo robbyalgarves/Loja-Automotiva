@@ -62,6 +62,5 @@ Todos os visuais respondem dinamicamente ao mês selecionado, caracterizando uma
 - Frota: RENAVEC (dados públicos – RMSP)
 - Faturamento e serviços: dados fictícios para fins acadêmicos
 
-🎥 **Vídeo de demonstração (AC2):**  
-👉 *(cole aqui o link do vídeo quando gravar)*
+
 
