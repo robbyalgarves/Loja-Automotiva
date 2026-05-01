@@ -1,0 +1,72 @@
+Data,Municipio,Faturamento
+01/07/2025,São Paulo,212870
+01/07/2025,Guarulhos,111230
+01/07/2025,Osasco,83620
+01/07/2025,Santo André,89540
+01/07/2025,São Bernardo do Campo,96210
+01/07/2025,São Caetano do Sul,50780
+01/07/2025,Diadema,61230
+01/07/2025,Barueri,76890
+01/07/2025,Carapicuíba,54760
+01/07/2025,Taboão da Serra,58120
+01/07/2025,Mauá,63540
+
+01/08/2025,São Paulo,210540
+01/08/2025,Guarulhos,109870
+01/08/2025,Osasco,82940
+01/08/2025,Santo André,88720
+01/08/2025,São Bernardo do Campo,95430
+01/08/2025,São Caetano do Sul,49860
+01/08/2025,Diadema,60510
+01/08/2025,Barueri,75980
+01/08/2025,Carapicuíba,53890
+01/08/2025,Taboão da Serra,57340
+01/08/2025,Mauá,62870
+
+01/09/2025,São Paulo,215980
+01/09/2025,Guarulhos,113450
+01/09/2025,Osasco,84270
+01/09/2025,Santo André,90360
+01/09/2025,São Bernardo do Campo,97820
+01/09/2025,São Caetano do Sul,51240
+01/09/2025,Diadema,61890
+01/09/2025,Barueri,77420
+01/09/2025,Carapicuíba,55210
+01/09/2025,Taboão da Serra,58970
+01/09/2025,Mauá,64730
+
+01/10/2025,São Paulo,221430
+01/10/2025,Guarulhos,116780
+01/10/2025,Osasco,85960
+01/10/2025,Santo André,92750
+01/10/2025,São Bernardo do Campo,100540
+01/10/2025,São Caetano do Sul,52980
+01/10/2025,Diadema,63240
+01/10/2025,Barueri,78910
+01/10/2025,Carapicuíba,56980
+01/10/2025,Taboão da Serra,60320
+01/10/2025,Mauá,66210
+
+01/11/2025,São Paulo,228970
+01/11/2025,Guarulhos,120340
+01/11/2025,Osasco,87640
+01/11/2025,Santo André,94580
+01/11/2025,São Bernardo do Campo,103780
+01/11/2025,São Caetano do Sul,54890
+01/11/2025,Diadema,64870
+01/11/2025,Barueri,80450
+01/11/2025,Carapicuíba,58230
+01/11/2025,Taboão da Serra,61890
+01/11/2025,Mauá,67980
+
+01/12/2025,São Paulo,239650
+01/12/2025,Guarulhos,125980
+01/12/2025,Osasco,90210
+01/12/2025,Santo André,97240
+01/12/2025,São Bernardo do Campo,107950
+01/12/2025,São Caetano do Sul,57210
+01/12/2025,Diadema,67230
+01/12/2025,Barueri,82980
+01/12/2025,Carapicuíba,60120
+01/12/2025,Taboão da Serra,63950
+01/12/2025,Mauá,70240
