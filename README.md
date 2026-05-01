@@ -62,5 +62,18 @@ Todos os visuais respondem dinamicamente ao mês selecionado, caracterizando uma
 - Frota: RENAVEC (dados públicos – RMSP)
 - Faturamento e serviços: dados fictícios para fins acadêmicos
 
+## ✅ AC3 – Evolução do Faturamento (Jul–Dez/2025)
+
+Nesta entrega foi desenvolvida a funcionalidade de **Evolução do Faturamento**, com foco na análise temporal do faturamento da loja automotiva Auto Prime Custom no segundo semestre de 2025.
+
+### Funcionalidades:
+- Segmentação de Mês/Ano (Jul–Dez)
+- Indicador de faturamento total do período
+- Indicador de crescimento do faturamento
+- Gráfico de linha com a evolução temporal
+- Gráfico de colunas com comparação mensal
+
+Todos os visuais respondem dinamicamente à segmentação de Mês/Ano.
+
 
 
