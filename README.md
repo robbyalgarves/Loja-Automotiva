@@ -75,7 +75,7 @@ Nesta entrega foi desenvolvida a funcionalidade de **Evolução do Faturamento**
 
 Todos os visuais respondem dinamicamente à segmentação de Mês/Ano.
 
-✅ Prova Final – Demanda por Serviços na RMSP (Jan–Mar/2026)
+## ✅ Prova Final – Demanda por Serviços na RMSP (Jan–Mar/2026)
 
 Na Prova Final foi implementada a funcionalidade **Demanda por Serviços na RMSP**, com o objetivo de identificar municípios com maior potencial de necessidade de serviços automotivos a partir da análise de sinistros de trânsito.
 
