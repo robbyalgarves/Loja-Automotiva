@@ -83,7 +83,7 @@ A análise utiliza dados reais obtidos no Portal de Dados Abertos do Estado de S
 
 Para esta entrega, foi utilizado um recorte dos meses de Janeiro, Fevereiro e Março de 2026.
 
-Funcionalidades:
+### Funcionalidades:
 - Slicer de Mês/Ano (Jan/26 – Mar/26)
 - Indicador de Total de Sinistros
 - Indicador de Índice de Demanda
@@ -98,14 +98,36 @@ Todos os visuais respondem dinamicamente ao filtro de Mês/Ano, permitindo anali
 
 A funcionalidade caracteriza-se como uma nova análise em relação às entregas anteriores, pois utiliza dados reais de sinistros para apoiar a identificação de oportunidades estratégicas de atuação para a Auto Prime Custom.
 
-Fonte dos dados:
+### Fonte dos dados:
 - Frota: RENAVEC (dados públicos – RMSP)
 - Faturamento e serviços: dados fictícios para fins acadêmicos
 - Sinistros de trânsito: Portal de Dados Abertos do Estado de São Paulo – Eventos de Sinistro  
   https://dadosabertos.sp.gov.br/dataset/eventos-de-sinistro
 
-Modelo de Dados – MER:
+### Modelo de Dados – MER:
 Foi desenvolvido o arquivo **MER_Demanda_Servicos_RMSP.png**, contendo o modelo entidade-relacionamento da Prova Final, com PK, FK, atributos e relacionamento entre as entidades.
+
+Também foi elaborado o arquivo **MER_Projeto_Completo_Auto_Prime_Custom.png**, contendo uma visão complementar do projeto completo, contemplando as principais entidades utilizadas nas entregas AC1, AC2, AC3 e Prova Final.
+
+O MER da Prova Final representa especificamente a funcionalidade **Demanda por Serviços na RMSP**.
+
+O MER completo apresenta uma visão consolidada das entidades:
+- Municipios
+- Calendario
+- Frota
+- Faturamento
+- Servicos
+- Faturamento_Servicos
+- Sinistros
+
+Relacionamentos representados no MER completo:
+- Municipios 1 : N Frota
+- Municipios 1 : N Faturamento
+- Calendario 1 : N Faturamento
+- Servicos 1 : N Faturamento_Servicos
+- Calendario 1 : N Faturamento_Servicos
+- Municipios 1 : N Sinistros
+- Calendario 1 : N SinistrosFoi desenvolvido o arquivo **MER_Demanda_Servicos_RMSP.png**, contendo o modelo entidade-relacionamento da Prova Final, com PK, FK, atributos e relacionamento entre as entidades.
 
 Entidades do MER:
 - **Municipios**
