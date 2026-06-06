@@ -105,38 +105,52 @@ A funcionalidade caracteriza-se como uma nova análise em relação às entregas
   https://dadosabertos.sp.gov.br/dataset/eventos-de-sinistro
 
 ### Modelo de Dados – MER:
-Foi desenvolvido o arquivo **MER_Demanda_Servicos_RMSP.png**, contendo o modelo entidade-relacionamento da Prova Final, com PK, FK, atributos e relacionamento entre as entidades.
+Foi desenvolvido o arquivo **MER_Projeto_Completo_Auto_Prime_Custom.png**, contendo o modelo entidade-relacionamento do projeto completo, com PK, FK, atributos e relacionamentos entre as entidades utilizadas nas entregas AC1, AC2, AC3 e Prova Final.
 
-Também foi elaborado o arquivo **MER_Projeto_Completo_Auto_Prime_Custom.png**, contendo uma visão complementar do projeto completo, contemplando as principais entidades utilizadas nas entregas AC1, AC2, AC3 e Prova Final.
+O MER completo apresenta uma visão consolidada da estrutura de dados do projeto Auto Prime Custom, contemplando as principais entidades utilizadas nas análises de mercado, faturamento, serviços e sinistros.
 
-O MER da Prova Final representa especificamente a funcionalidade **Demanda por Serviços na RMSP**.
+Entidades do MER completo:
 
-O MER completo apresenta uma visão consolidada das entidades:
-- Municipios
-- Calendario
-- Frota
-- Faturamento
-- Servicos
-- Faturamento_Servicos
-- Sinistros
-
-Relacionamentos representados no MER completo:
-- Municipios 1 : N Frota
-- Municipios 1 : N Faturamento
-- Calendario 1 : N Faturamento
-- Servicos 1 : N Faturamento_Servicos
-- Calendario 1 : N Faturamento_Servicos
-- Municipios 1 : N Sinistros
-- Calendario 1 : N SinistrosFoi desenvolvido o arquivo **MER_Demanda_Servicos_RMSP.png**, contendo o modelo entidade-relacionamento da Prova Final, com PK, FK, atributos e relacionamento entre as entidades.
-
-Entidades do MER:
 - **Municipios**
   - PK cod_ibge
   - municipio
+  - regiao
+
+- **Calendario**
+  - PK id_data
+  - data
+  - ano
+  - mes
+  - mes_ano
+  - semestre
+
+- **Frota**
+  - PK id_frota
+  - FK cod_ibge
+  - quantidade_frota
+
+- **Faturamento**
+  - PK id_faturamento
+  - FK cod_ibge
+  - FK id_data
+  - valor_faturamento
+  - ticket_medio_estimado
+
+- **Servicos**
+  - PK id_servico
+  - nome_servico
+  - categoria_servico
+
+- **Faturamento_Servicos**
+  - PK id_faturamento_servico
+  - FK id_servico
+  - FK id_data
+  - valor_servico
 
 - **Sinistros**
   - PK id_sinistro
   - FK cod_ibge
+  - FK id_data
   - data_sinistro
   - ano_sinistro
   - mes_sinistro
@@ -150,8 +164,14 @@ Entidades do MER:
   - MesAno_Ordem
   - Servico Sugerido
 
-Relacionamento:
+Relacionamentos representados no MER completo:
+
+- Municipios 1 : N Frota
+- Municipios 1 : N Faturamento
+- Calendario 1 : N Faturamento
+- Servicos 1 : N Faturamento_Servicos
+- Calendario 1 : N Faturamento_Servicos
 - Municipios 1 : N Sinistros
+- Calendario 1 : N Sinistros
 
-
-
+Esse MER completo foi exportado como imagem, conforme solicitado para a entrega da Prova Final, contendo PK, FK, atributos e relacionamentos entre as entidades.
